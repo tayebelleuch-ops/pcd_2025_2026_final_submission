@@ -1,0 +1,240 @@
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+  position: relative;
+}
+
+.landing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(45, 90, 39, 0.8), rgba(28, 59, 24, 0.9));
+  z-index: 1;
+}
+
+.onboarding-card {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.onboarding-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.logo-wrapper {
+  width: 64px;
+  height: 64px;
+  background: #E8F3E5;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: #2D5A27;
+}
+
+.onboarding-header h1 {
+  font-size: 1.8rem;
+  color: #1A2F1A;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.onboarding-header p {
+  color: #526651;
+  font-size: 1rem;
+}
+
+.onboarding-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2D5A27;
+}
+
+.form-group input, 
+.form-group select {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 1.5px solid #D1E0CE;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  background: #FAFBFA;
+  width: 100%;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+  outline: none;
+  border-color: #2D5A27;
+  box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.1);
+  background: white;
+}
+
+.composite-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.composite-input input {
+  flex: 2;
+}
+
+.composite-input select {
+  flex: 1;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background: #2D5A27;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(45, 90, 39, 0.2);
+}
+
+.submit-btn:hover {
+  background: #1C3B18;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(45, 90, 39, 0.3);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .onboarding-card {
+    padding: 2rem;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.crops-section {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2D5A27;
+  margin-bottom: 0.5rem;
+}
+
+.crop-entry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  background: #f8faf8;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 1px solid #eef2ee;
+  position: relative;
+}
+
+.crop-entry .remove-crop-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: white;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.add-crop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: none;
+  border: 2px dashed #D1E0CE;
+  padding: 0.8rem;
+  border-radius: 12px;
+  color: #2D5A27;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-crop-btn:hover {
+  background: #F0F4F0;
+  border-color: #2D5A27;
+}
+
+.remove-crop-btn {
+  background: none;
+  border: none;
+  color: #cc3300;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.remove-crop-btn:hover {
+  background: #fff0f0;
+}

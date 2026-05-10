@@ -1,0 +1,26 @@
+graph TD
+  %% Initialization
+  Z[Frontend UI] -->|Injects soil_type & Lat/Lon into Message| A
+  A[Agent requests Tool Call] --> B{Which Tool?}
+  
+  %% The Interceptor Flow
+  B -- fetch_graph --> C[Execute ClickHouse SQL]
+  C --> D[Save array to Request.state.buffer]
+  D --> E[Return basic 'Success' string to Agent]
+  
+  %% The Standard/Decider Flow
+  B -- custom_agronomy_tools --> F[Execute DB Logic]
+  F --> G{Try/Except DB Error?}
+  
+  %% The Self-Healing Loop
+  G -- Yes (Exception Caught) --> H[Extract error message]
+  H --> I[Return raw Error String to Agent]
+  I --> |Agent retries up to 3x| A
+  
+  %% Success Flow
+  G -- No (Success) --> J[Return JSON string to Agent]
+  
+  %% Final Assembly
+  E --> K[Agent generates final Text]
+  J --> K
+  K --> L[FastAPI bundles Text + chart_data buffer into ChatResponse]

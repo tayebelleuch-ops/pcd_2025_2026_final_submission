@@ -1,0 +1,174 @@
+{
+  "extraction_date": "2025-12-22T23:22:42.276868",
+  "country": "TN",
+  "region": "Tunis",
+  "sources": {
+    "fao_giews": {
+      "source": "FAO GIEWS",
+      "status": "requires_web_scraping",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=TN&lang=en",
+      "note": "FAO GIEWS data requires HTML parsing or manual data portal access"
+    },
+    "fao_locust_hub": {
+      "source": "FAO Locust Hub",
+      "status": "requires_api_research",
+      "url": "https://www.fao.org/ag/locusts/en/info/info/index.html",
+      "note": "FAO Locust Hub may have GIS/JSON data feeds that need to be identified"
+    },
+    "iresa": {
+      "source": "IRESA",
+      "status": "requires_research",
+      "url": "http://www.iresa.agrinet.tn",
+      "note": "IRESA data availability and API endpoints need to be researched"
+    },
+    "fao_agris": {
+      "source": "FAO AGRIS",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://agris.fao.org/agris-search/api/records?query=pest+risk+TN&format=json"
+    }
+  },
+  "mock_data": [
+    {
+      "week_start": "2025-12-22",
+      "week_end": "2025-12-28",
+      "country": "TN",
+      "region": "Tunis",
+      "pest_risks": [
+        {
+          "pest_type": "locusts",
+          "risk_level": "low",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7
+        },
+        {
+          "pest_type": "aphids",
+          "risk_level": "low",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "week_start": "2025-12-15",
+      "week_end": "2025-12-21",
+      "country": "TN",
+      "region": "Tunis",
+      "pest_risks": [
+        {
+          "pest_type": "locusts",
+          "risk_level": "medium",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7999999999999999
+        },
+        {
+          "pest_type": "aphids",
+          "risk_level": "medium",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7999999999999999
+        },
+        {
+          "pest_type": "whiteflies",
+          "risk_level": "medium",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7999999999999999
+        }
+      ]
+    },
+    {
+      "week_start": "2025-12-08",
+      "week_end": "2025-12-14",
+      "country": "TN",
+      "region": "Tunis",
+      "pest_risks": [
+        {
+          "pest_type": "locusts",
+          "risk_level": "high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.8999999999999999
+        },
+        {
+          "pest_type": "aphids",
+          "risk_level": "high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.8999999999999999
+        },
+        {
+          "pest_type": "whiteflies",
+          "risk_level": "high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.8999999999999999
+        },
+        {
+          "pest_type": "armyworms",
+          "risk_level": "high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.8999999999999999
+        }
+      ]
+    },
+    {
+      "week_start": "2025-12-01",
+      "week_end": "2025-12-07",
+      "country": "TN",
+      "region": "Tunis",
+      "pest_risks": [
+        {
+          "pest_type": "locusts",
+          "risk_level": "very_high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7
+        },
+        {
+          "pest_type": "aphids",
+          "risk_level": "very_high",
+          "affected_crops": [
+            "wheat",
+            "barley",
+            "olive"
+          ],
+          "confidence": 0.7
+        }
+      ]
+    }
+  ]
+}

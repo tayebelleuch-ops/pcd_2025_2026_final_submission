@@ -1,0 +1,768 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8" pages="6">
+  <diagram name="Driver" id="dDhV5s36_gal1qkMXSYH">
+    <mxGraphModel dx="2431" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-1" value="Information &amp; digitalisation" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="760" y="830" width="670" height="531" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-2" value="Risques climatiques &amp; ravageurs" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="513" width="640" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-3" value="Incertitude &amp; rentabilité" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="990" height="423" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-4" value="DRV-03 Volatilité des prix agricoles&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="h9hh_e4x8k_iFJZE3wZ6-3">
+          <mxGeometry x="45.31343283582089" y="43.51435406698564" width="256.1194029850746" height="103.2200956937799" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-5" value="DRV-14 Complexité du choix des cultures&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="h9hh_e4x8k_iFJZE3wZ6-3">
+          <mxGeometry x="375.3134328358209" y="126.49521531100477" width="256.1194029850746" height="103.2200956937799" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-6" value="DRV-07 Besoin d’augmenter les revenus&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="h9hh_e4x8k_iFJZE3wZ6-3">
+          <mxGeometry x="705.3134328358209" y="203.40430622009566" width="256.1194029850746" height="103.2200956937799" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-7" value="DRV-08 Manque de suivi des coûts réels&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="h9hh_e4x8k_iFJZE3wZ6-3">
+          <mxGeometry x="375.3134328358209" y="292.45693779904303" width="256.1194029850746" height="103.2200956937799" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-8" value="DRV-10 Opportunité d’analyse météo + historique&#xa;(Could)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=40;" vertex="1" parent="h9hh_e4x8k_iFJZE3wZ6-3">
+          <mxGeometry x="45.31343283582089" y="197.33253588516743" width="256.1194029850746" height="127.50717703349281" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.1;entryY=0;rounded=0;" edge="1" parent="h9hh_e4x8k_iFJZE3wZ6-3" source="h9hh_e4x8k_iFJZE3wZ6-4" target="h9hh_e4x8k_iFJZE3wZ6-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337.88059701492534" y="95.12440191387559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.07;entryY=0;rounded=0;" edge="1" parent="h9hh_e4x8k_iFJZE3wZ6-3" source="h9hh_e4x8k_iFJZE3wZ6-5" target="h9hh_e4x8k_iFJZE3wZ6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667.8805970149253" y="178.1052631578947" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.12;entryY=1;rounded=0;" edge="1" parent="h9hh_e4x8k_iFJZE3wZ6-3" source="h9hh_e4x8k_iFJZE3wZ6-7" target="h9hh_e4x8k_iFJZE3wZ6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667.8805970149253" y="344.06698564593296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.1;entryY=1;rounded=0;" edge="1" parent="h9hh_e4x8k_iFJZE3wZ6-3" source="h9hh_e4x8k_iFJZE3wZ6-8" target="h9hh_e4x8k_iFJZE3wZ6-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337.88059701492534" y="261.0861244019138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-13" value="Ressources en eau" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="70" width="370" height="747" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-14" value="DRV-01 Rareté de l&#39;eau&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1188" y="550" width="222" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-15" value="DRV-02 Besoin d’optimiser l’irrigation&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="690" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-16" value="DRV-11 Politiques nationales d’économie d’eau&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="191" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-17" value="DRV-04 Changement climatique&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="745" y="538" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-18" value="DRV-09 Risque élevé de ravageurs&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="435" y="538" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-19" value="DRV-13 Manque de planification saisonnière&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="435" y="690" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-20" value="DRV-05 Manque d’accès à l’information technique&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="892" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-21" value="DRV-06 Faible digitalisation agricole&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1232" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-22" value="DRV-12 Besoin d’accessibilité mobile simple&#xa;(Must)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1044" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-23" value="DRV-15 Besoin d’autonomie (moins de conseillers)&#xa;(Should)" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1220" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.69;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-14" target="h9hh_e4x8k_iFJZE3wZ6-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1299" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-15" target="h9hh_e4x8k_iFJZE3wZ6-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-20" target="h9hh_e4x8k_iFJZE3wZ6-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-22" target="h9hh_e4x8k_iFJZE3wZ6-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-17" target="h9hh_e4x8k_iFJZE3wZ6-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="948" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=1;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-17" target="h9hh_e4x8k_iFJZE3wZ6-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-18" target="h9hh_e4x8k_iFJZE3wZ6-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-16" target="h9hh_e4x8k_iFJZE3wZ6-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1299" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9hh_e4x8k_iFJZE3wZ6-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.42;exitY=1;entryX=0.31;entryY=0;rounded=0;" edge="1" parent="1" source="h9hh_e4x8k_iFJZE3wZ6-16" target="h9hh_e4x8k_iFJZE3wZ6-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1153" y="488" />
+              <mxPoint x="1153" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FbzuTODzDkntRtarZRvz" name="Goals">
+    <mxGraphModel dx="2066" dy="1209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZzwGp1i27kzblNhtPUse-134" value="Goal OBJ-01 : Reduire la consommation d&#39;eau d&#39;irrigation de 15-25% en 12 mois" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="150" y="606" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-135" value="Goal OBJ-02 : Ameliorer la precision de l&#39;irrigation ET0 vs eau reelle de 30% en 6 mois" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="420" y="594" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-136" value="Goal OBJ-03 : Augmenter la marge nette par hectare de 10% en 1 an" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="150" y="740" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-137" value="Goal OBJ-04 : Reduire les pertes financieres liees au mauvais choix de culture de 50% en 2 ans" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="710" y="606" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-138" value="Goal OBJ-05 : Augmenter l&#39;adoption des cultures les plus rentables de 20% en 1 an" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="985" y="606" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-139" value="Goal OBJ-06 : Envoyer les alertes meteo critiques en moins de 5 min" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="420" y="731" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-140" value="Goal OBJ-07 : Reduire les pertes dues aux ravageurs de 15% en 1 an" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="609" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-141" value="Goal OBJ-08 : Reduire les pertes liees a la meteo de 30% en 12 mois" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="710" y="744" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-142" value="Goal OBJ-09 : Atteindre 85% de satisfaction sur la precision des recommandations" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="985" y="744" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-143" value="Goal OBJ-10 : Reduire l&#39;ecart prevision vs reel a moins de 20%" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="150" y="850" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-144" value="Goal OBJ-11 : Atteindre 75% de fiabilite des recommandations de culture" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="720" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-145" value="Goal OBJ-12 : Atteindre 40% d&#39;usage hebdo actif apres 6 mois" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="420" y="841" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-146" value="Goal OBJ-13 : Reduire le temps de decision de 50%" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="640" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-147" value="Goal OBJ-14 : Reduire de 20% les appels au conseiller agricole" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="730" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-148" value="Goal OBJ-15 : Garantir 99% de disponibilite mensuelle" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="150" y="963" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-149" value="Goal OBJ-16 : Rafraichir les donnees meteo toutes les 2 heures" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="420" y="951" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-150" value="Goal OBJ-17 : Rafraichir les prix mondiaux une fois par jour" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="985" y="885" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzwGp1i27kzblNhtPUse-151" value="Goal OBJ-18 : Maintenir un taux d&#39;erreur inferieur a 10% dans ET0 Kc" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1067" width="260" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7oGCO7gO5-rZLGFW_Cr" name="Requirements">
+    <mxGraphModel dx="1239" dy="2378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-1" value="Agriculteur" style="whiteSpace=wrap;strokeWidth=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-358" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-2" value="Ingenieur agronome" style="whiteSpace=wrap;strokeWidth=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2392.5" y="-360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-3" value="Decideur public" style="whiteSpace=wrap;strokeWidth=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2565" y="-358" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-4" value="Data engineer" style="whiteSpace=wrap;strokeWidth=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="-365" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-5" value="Admin" style="whiteSpace=wrap;strokeWidth=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="-360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-6" value="REQ-001 - Quantite eau exacte par jour - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-268" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-7" value="REQ-002 - Calendrier irrigation ET0 Kc sol meteo - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="-183" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-8" value="REQ-003 - Alertes meteo pluie gel vent chaleur - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-103" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-9" value="REQ-004 - Alertes risque ravageurs - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="107" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-10" value="REQ-005 - Comparer rentabilite cultures - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-20" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-11" value="REQ-006 - Visualiser prix mondiaux et locaux - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="187" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-12" value="REQ-007 - Tableau de bord simple - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="57" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-13" value="REQ-008 - Enregistrer parcelles - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="147" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-14" value="REQ-009 - Declarer semis irrigation recolte - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="97" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-15" value="REQ-010 - Parametrer Kc varietes pratiques - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2337.5" y="-214" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-16" value="REQ-011 - Analyser consommation eau par zone - Could" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=40;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="-212" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-17" value="REQ-012 - Acces API meteo prix historique - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="-214" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-18" value="REQ-013 - Application en arabe ou dialecte - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="269" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-19" value="REQ-014 - Mode hors ligne - Could" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=40;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="-348" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-20" value="REQ-015 - Recommandations automatiques IA - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="17" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-21" value="REQ-016 - Gestion utilisateurs roles parcelles - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="-214" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-22" value="REQ-017 - Estimer cout irrigation - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="-73" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-23" value="REQ-018 - Estimer rendements previsionnels - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-163" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-24" value="REQ-019 - Detecter risque culture deficitaire - Must" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-353" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-25" value="REQ-020 - Conseils irrigation et fertilisation - Should" style="whiteSpace=wrap;strokeWidth=1;fillColor=#CCCCFF;strokeColor=#9673a6;opacity=60;html=1;outlineConnect=0;shape=mxgraph.archimate3.application;appType=requirement;archiType=oct;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="-261" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-26" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-27" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-28" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-29" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-30" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-31" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-32" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-33" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-34" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-35" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-36" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-37" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-38" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-39" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-40" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="36.999999999999886" as="sourcePoint" />
+            <mxPoint x="3910" y="478.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-41" value="" style="startArrow=none;endArrow=block;rounded=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#000000;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-1" target="JV7Vy6PeEFpO88UYyEfD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;strokeWidth=1;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-2" target="JV7Vy6PeEFpO88UYyEfD-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;strokeWidth=1;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-3" target="JV7Vy6PeEFpO88UYyEfD-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;strokeWidth=1;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-4" target="JV7Vy6PeEFpO88UYyEfD-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JV7Vy6PeEFpO88UYyEfD-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;strokeWidth=1;" edge="1" parent="1" source="JV7Vy6PeEFpO88UYyEfD-5" target="JV7Vy6PeEFpO88UYyEfD-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_LNCtV4TUFdrrDUVSt88" name="Data">
+    <mxGraphModel dx="3123" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-1" value="Données satellitaires" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="490" width="335" height="596" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-2" value="DATA-032 : NDVI&#xa;Utilite : Stress hydrique&#xa;Source : Sentinel-2&#xa;Temporalite : 5 jours&#xa;Priorite : Could" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=40;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-1">
+          <mxGeometry x="46" y="43" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-3" value="DATA-033 : NDWI&#xa;Utilite : Humidite du couvert&#xa;Source : ESA&#xa;Temporalite : 5 jours&#xa;Priorite : Could" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=40;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-1">
+          <mxGeometry x="46" y="219" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-4" value="DATA-034 : Temperature surface&#xa;Utilite : Stress thermique&#xa;Source : MODIS&#xa;Temporalite : Jour&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-1">
+          <mxGeometry x="46" y="419" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-5" value="Données économiques" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="405" y="492" width="335" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-6" value="DATA-028 : Prix mondiaux cultures&#xa;Utilite : Choix culture rentable&#xa;Source : FAO, WorldBank, Tridge&#xa;Temporalite : Jour&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-5">
+          <mxGeometry x="46" y="43" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-7" value="DATA-029 : Prix Tunisie&#xa;Utilite : Rentabilite locale&#xa;Source : ONAGRI, APIA&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-5">
+          <mxGeometry x="46" y="267" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-8" value="DATA-030 : Historique prix 10-30 ans&#xa;Utilite : Modeles predictifs&#xa;Source : FAO, WorldBank&#xa;Temporalite : Annee&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-5">
+          <mxGeometry x="46" y="491" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-9" value="DATA-031 : Cout local de l eau&#xa;Utilite : Calcul marge nette&#xa;Source : GDA, Sonede&#xa;Temporalite : Mois&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-5">
+          <mxGeometry x="46" y="715" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-10" value="Données terrain (agriculteur)" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="760" y="490" width="335" height="1668" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-11" value="DATA-020 : Localisation parcelle&#xa;Utilite : Meteo ciblee&#xa;Source : Agricult., GPS&#xa;Temporalite : Fixe&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="43" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-12" value="DATA-021 : Surface ha&#xa;Utilite : Calcul irrigation, rendement&#xa;Source : Agricult.&#xa;Temporalite : Annee&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="243" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-13" value="DATA-022 : Type sol reel&#xa;Utilite : Ajuster modele&#xa;Source : Agricult.&#xa;Temporalite : Annee&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="467" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-14" value="DATA-023 : Dates semis&#xa;Utilite : Kc et planification&#xa;Source : Agricult.&#xa;Temporalite : Saison&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="667" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-15" value="DATA-024 : Dates irrigation&#xa;Utilite : Historique eau&#xa;Source : Agricult.&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="867" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-16" value="DATA-025 : Quantite eau utilisee&#xa;Utilite : Efficacite irrigation&#xa;Source : Agricult.&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="1067" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-17" value="DATA-026 : Cout intrants&#xa;Utilite : Rentabilite&#xa;Source : Agricult.&#xa;Temporalite : Mois&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="1291" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-18" value="DATA-027 : Rendement reel&#xa;Utilite : Validation modele&#xa;Source : Agricult.&#xa;Temporalite : Saison&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry x="46" y="1491" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-19" value="Données agronomiques" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="490" width="335" height="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-20" value="DATA-015 : Liste des cultures&#xa;Utilite : Recommandation cultures&#xa;Source : CRDA, FAO&#xa;Temporalite : Annee&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry x="46" y="43" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-21" value="DATA-016 : Besoin hydrique par culture&#xa;Utilite : Irrigation optimale&#xa;Source : FAO56&#xa;Temporalite : Saison&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry x="46" y="267" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-22" value="DATA-017 : Rendement moyen&#xa;Utilite : Estimation rentabilite&#xa;Source : ONAGRI, CRDA&#xa;Temporalite : Annee&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry x="46" y="491" width="260" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-23" value="DATA-018 : Risques ravageurs&#xa;Utilite : Alertes predictives&#xa;Source : IRESA, FAO&#xa;Temporalite : Semaine&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry x="46" y="739" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-24" value="DATA-019 : Calendrier cultural&#xa;Utilite : Semis et recolte&#xa;Source : CRDA, agronome&#xa;Temporalite : Annee&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry x="46" y="939" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-25" value="Données hydriques" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="490" width="335" height="1316" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-26" value="DATA-009 : ET0&#xa;Utilite : Calcul besoin en eau&#xa;Source : Calcul interne FAO56&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="43" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-27" value="DATA-010 : Coefficient Kc&#xa;Utilite : Ajuster irrigation selon culture&#xa;Source : FAO, agronome&#xa;Temporalite : Saison&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="267" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-28" value="DATA-011 : Humidite du sol&#xa;Utilite : Ajuster quantite d eau&#xa;Source : Capteurs, estimation&#xa;Temporalite : Jour&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="491" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-29" value="DATA-012 : Type de sol&#xa;Utilite : Capacite de retention&#xa;Source : CRDA, agriculteur&#xa;Temporalite : Annee&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="715" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-30" value="DATA-013 : Disponibilite eau locale&#xa;Utilite : Regulation GDA&#xa;Source : GDA, CRDA&#xa;Temporalite : Mois&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="915" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-31" value="DATA-014 : Volume d eau pompe&#xa;Utilite : Calcul consommation et couts&#xa;Source : Agriculteur&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry x="46" y="1115" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-32" value="Données météo" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#E5FDFF;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="337" height="1836" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-33" value="DATA-001 : Precipitations mm&#xa;Utilite : Calcul irrigation et eviter arrosage post-pluie&#xa;Source : INM, Open-Meteo, NOAA&#xa;Temporalite : Heure/Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="43" width="260" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-34" value="DATA-002 : Temperature min max&#xa;Utilite : Calcul ET0, detection stress chaleur&#xa;Source : INM, OpenWeather&#xa;Temporalite : Heure&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="46" y="315" width="262" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-35" value="DATA-003 : Humidite relative&#xa;Utilite : Calcul ET0 et maladies&#xa;Source : INM, OpenWeather&#xa;Temporalite : Heure&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="46" y="539" width="262" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-36" value="DATA-004 : Vitesse du vent&#xa;Utilite : Risques, evaporation, pulverisation&#xa;Source : INM, NOAA&#xa;Temporalite : Heure&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="763" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-37" value="DATA-005 : Rayonnement solaire&#xa;Utilite : Calcul ET0&#xa;Source : NASA POWER, ECMWF&#xa;Temporalite : Heure&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="987" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-38" value="DATA-006 : Pression atmospherique&#xa;Utilite : Confiance meteo&#xa;Source : INM&#xa;Temporalite : Heure&#xa;Priorite : Could" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=40;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="1211" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-39" value="DATA-007 : Prevision meteo 7 jours&#xa;Utilite : Planification irrigation&#xa;Source : Open-Meteo, ECMWF&#xa;Temporalite : Jour&#xa;Priorite : Must" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="1411" width="260" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwXpLOUHi9CNirVMJUq-40" value="DATA-008 : Previsions saisonnieres&#xa;Utilite : Choix des cultures&#xa;Source : Copernicus&#xa;Temporalite : Mois&#xa;Priorite : Should" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;opacity=60;" vertex="1" parent="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry x="47" y="1659" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-1" target="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-3" value="Source of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9PpIVmBFHnnD-N5XxPR-2">
+          <mxGeometry x="-0.2436" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-1" value="&lt;b&gt;Website&lt;/b&gt;&lt;div&gt;Open-meteo&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="332" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-4" value="&lt;b&gt;Website&lt;/b&gt;&lt;div&gt;onagri.nat.tn&lt;/div&gt;&lt;div&gt;http://www.onagri.nat.tn/pluviometrie&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="210" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-4" target="dcwXpLOUHi9CNirVMJUq-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="440" as="sourcePoint" />
+            <mxPoint x="154" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-6" value="Source of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9PpIVmBFHnnD-N5XxPR-5">
+          <mxGeometry x="-0.2436" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-4" target="dcwXpLOUHi9CNirVMJUq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-8" value="Source of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9PpIVmBFHnnD-N5XxPR-7">
+          <mxGeometry x="-0.2436" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-9" target="dcwXpLOUHi9CNirVMJUq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-9" value="Agriculteur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="345" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-9" target="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1237" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-14" target="dcwXpLOUHi9CNirVMJUq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9PpIVmBFHnnD-N5XxPR-14" target="dcwXpLOUHi9CNirVMJUq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-14" value="Agronome" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="347" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9PpIVmBFHnnD-N5XxPR-17" value="&lt;b&gt;Website&lt;/b&gt;&lt;div&gt;...&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="150" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZElohPx1LSu25g0mhO-3" name="Architecture">
+    <mxGraphModel dx="2787" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-3" value="Application Front" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="885" y="20" width="261" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-4" value="MCP Server" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="91" width="230" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-5" value="Backend Python" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1475" y="20" width="272" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-6" value="Base Analytique" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1797" y="307" width="189" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-7" value="Base Operationnelle" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1797" y="40" width="189" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-8" value="Jobs de Transformation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="885" y="311" width="863" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-9" value="MinIO Data Lake" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="679" y="571" width="746" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-10" value="Ingestion et Orchestration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="340" y="400" width="300" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-11" value="Sources de donnees" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="367" width="280" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-13" value="Prix Marche" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="13" y="506" width="143" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-14" value="Donnees Nationales" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="610" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-15" value="Saisie Agriculteur" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-7" y="714" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-16" value="&lt;b&gt;Orchestrateur&lt;/b&gt;&amp;nbsp;&lt;div&gt;Airflow&lt;/div&gt;" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="1" vertex="1">
+          <mxGeometry x="362" y="458" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xVk3UVdiwEoLurG62rwS-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-17" target="OGa91uqB3g-SLGpfdGn4-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVk3UVdiwEoLurG62rwS-3" value="Extract Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xVk3UVdiwEoLurG62rwS-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.0825" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-17" value="&lt;div&gt;&lt;b&gt;Python Job&lt;/b&gt;&lt;/div&gt;Data Extraction Service" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="1" vertex="1">
+          <mxGeometry x="380" y="606" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-20" value="&lt;div&gt;&lt;b&gt;Python Job&lt;/b&gt;&lt;/div&gt;Nomalisation Jobs" style="whiteSpace=wrap;strokeWidth=2;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="1" vertex="1">
+          <mxGeometry x="970" y="404" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-21" value="Modeles Operationnels" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="346" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-22" value="Modeles Analytiques" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1509" y="462" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-23" value="PostgreSQL" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1822" y="75" width="139" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-24" value="ClickHouse" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1823" y="455" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-25" value="API HTTP" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1549" y="116" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-26" value="MCP Tools" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1246" y="157" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-27" value="Interface Graphiques" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="910" y="58" width="211" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-28" value="LLM Externe" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="941" y="218" width="148" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-30" value="" style="startArrow=none;endArrow=block;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-16" target="OGa91uqB3g-SLGpfdGn4-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVk3UVdiwEoLurG62rwS-1" value="orchestrate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OGa91uqB3g-SLGpfdGn4-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-31" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-17" target="OGa91uqB3g-SLGpfdGn4-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVk3UVdiwEoLurG62rwS-4" value="Store&lt;div&gt;Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OGa91uqB3g-SLGpfdGn4-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.16" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-35" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.37;entryY=1;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-21" target="OGa91uqB3g-SLGpfdGn4-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-37" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.59;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-22" target="OGa91uqB3g-SLGpfdGn4-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-38" value="" style="startArrow=none;endArrow=block;exitX=0.99;exitY=0.06;entryX=0;entryY=0.35;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-25" target="OGa91uqB3g-SLGpfdGn4-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-39" value="" style="startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.36;entryY=0;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-25" target="OGa91uqB3g-SLGpfdGn4-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-40" value="" style="startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0;entryY=0.85;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-26" target="OGa91uqB3g-SLGpfdGn4-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-41" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.1;entryY=1;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-28" target="OGa91uqB3g-SLGpfdGn4-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-42" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=0.09;entryY=0;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-27" target="OGa91uqB3g-SLGpfdGn4-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVk3UVdiwEoLurG62rwS-5" value="MinIO" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="890" y="620" width="350" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-18" value="Zone RAW" style="whiteSpace=wrap;strokeWidth=1;fontSize=12;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="646.5" width="111" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-19" value="Zone Normalisee" style="whiteSpace=wrap;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="646.5" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-32" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.39;entryY=1;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-18" target="OGa91uqB3g-SLGpfdGn4-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-33" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.41;entryY=0;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-20" target="OGa91uqB3g-SLGpfdGn4-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-34" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.25;entryX=0;entryY=0.5;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-19" target="OGa91uqB3g-SLGpfdGn4-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGa91uqB3g-SLGpfdGn4-36" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.72;entryX=0;entryY=0.5;rounded=0;" parent="1" source="OGa91uqB3g-SLGpfdGn4-19" target="OGa91uqB3g-SLGpfdGn4-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-1" value="&lt;b&gt;Website&lt;/b&gt;&lt;div&gt;Open-meteo&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="1" vertex="1">
+          <mxGeometry y="410" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-2" value="Extract Data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="190" y="920" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-3" value="Normalise Data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="400" y="920" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-4" value="Store Data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="600" y="880" width="400" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-5" value="Store Operational Data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FDFFDF;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="630" y="930" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-6" value="Store Analytics Data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FDFFDF;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="820" y="930" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QwjVUvHommb31V9V0gdZ-2" target="QwjVUvHommb31V9V0gdZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QwjVUvHommb31V9V0gdZ-3" target="QwjVUvHommb31V9V0gdZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-9" value="Expose Data via API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="920" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-10" value="Expose Data via MCP" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="840" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QwjVUvHommb31V9V0gdZ-4" target="QwjVUvHommb31V9V0gdZ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QwjVUvHommb31V9V0gdZ-9" target="QwjVUvHommb31V9V0gdZ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="940" />
+              <mxPoint x="1520" y="878" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-13" value="Expose data via Front End" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="980" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QwjVUvHommb31V9V0gdZ-14" target="QwjVUvHommb31V9V0gdZ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-14" value="Build Business Layer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="920" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QwjVUvHommb31V9V0gdZ-9" target="QwjVUvHommb31V9V0gdZ-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1524" y="970" />
+              <mxPoint x="1524" y="1018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QwjVUvHommb31V9V0gdZ-18" value="&lt;div&gt;&lt;b&gt;Python Job&lt;/b&gt;&lt;/div&gt;Data Extraction Service" style="whiteSpace=wrap;strokeWidth=1;html=1;outlineConnect=0;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="1" vertex="1">
+          <mxGeometry x="450" y="153" width="224" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LSDVVYwGHycmdLpMAbnO" name="Page-6">
+    <mxGraphModel dx="2066" dy="1209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

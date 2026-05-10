@@ -1,0 +1,19 @@
+# --- Web Framework & Server ---
+fastapi>=0.111.0,<1.0.0
+uvicorn[standard]>=0.31.1,<1
+
+# --- Validation & Configuration ---
+pydantic>=2.12.2,<3
+pydantic-settings>=2.5.2,<3
+
+# --- Security & Rate Limiting ---
+slowapi==0.1.9
+
+# --- The AI Brain ---
+openai>=2,<3
+google-adk==1.27.3
+litellm==1.83.11
+
+# --- Database Drivers ---
+clickhouse-driver==0.2.7
+asyncpg==0.29.0

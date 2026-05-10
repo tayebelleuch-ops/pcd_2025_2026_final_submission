@@ -1,0 +1,184 @@
+x-airflow-common: &airflow-common
+  build: ./airflow
+  image: custom-airflow:latest
+  environment:
+    MINIO_ENDPOINT: ${MINIO_ENDPOINT}
+    MINIO_ACCESS_KEY: ${MINIO_ROOT_USER}
+    MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+
+    OP_DB_HOST: ${OP_DB_HOST}
+    OP_DB_NAME: ${OP_DB_NAME}
+    OP_DB_USER: ${OP_DB_USER}
+    OP_DB_PASS: ${OP_DB_PASS}
+
+    CLICKHOUSE_HOST: ${CLICKHOUSE_HOST}
+    CLICKHOUSE_DB: ${CLICKHOUSE_DB}
+    CLICKHOUSE_USER: ${CLICKHOUSE_USER}
+    CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD}
+    CLICKHOUSE_PORT: 8123
+
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${AIRFLOW_DB_USER}:${AIRFLOW_DB_PASS}@airflow-postgres/${AIRFLOW_DB_NAME}
+    AIRFLOW__CELERY__BROKER_URL: redis://airflow-redis:6379/0
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://${AIRFLOW_DB_USER}:${AIRFLOW_DB_PASS}@airflow-postgres/${AIRFLOW_DB_NAME}
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags:ro
+    - airflow_logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins:ro
+
+services:
+  # --------------------------------------------------
+  # Airflow metadata database
+  # --------------------------------------------------
+  airflow-postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${AIRFLOW_DB_USER}
+      POSTGRES_PASSWORD: ${AIRFLOW_DB_PASS}
+      POSTGRES_DB: ${AIRFLOW_DB_NAME}
+    volumes:
+      - airflow_pg_data:/var/lib/postgresql/data
+
+  # --------------------------------------------------
+  # Redis (Celery broker)
+  # --------------------------------------------------
+  #required for airflow, task queue
+  airflow-redis:
+    image: redis:7.2-bookworm
+
+  # --------------------------------------------------
+  # Airflow webserver
+  # --------------------------------------------------
+  airflow-webserver:
+    <<: *airflow-common
+    depends_on:
+      - airflow-postgres
+      - airflow-redis
+    ports:
+      - "8080:8080"
+    command: webserver
+
+  # --------------------------------------------------
+  # Airflow scheduler
+  # --------------------------------------------------
+  airflow-scheduler:
+    <<: *airflow-common
+    depends_on:
+      - airflow-postgres
+      - airflow-redis
+    command: scheduler
+
+  # --------------------------------------------------
+  # Airflow worker
+  # --------------------------------------------------
+  airflow-worker:
+    <<: *airflow-common
+    depends_on:
+      - airflow-postgres
+      - airflow-redis
+    command: celery worker
+
+  # --------------------------------------------------
+  # Airflow initialization (run once)
+  # --------------------------------------------------
+  airflow-init:
+    <<: *airflow-common
+    depends_on:
+      - airflow-postgres
+    entrypoint: >
+      /bin/bash -c "airflow db migrate &&
+      airflow users create --username admin --password admin
+      --firstname Tayeb --lastname Elleuch --role Admin
+      --email tayeb.elleuch@ensi-uma.tn || true"
+  # --------------------------------------------------
+  # MinIO (Data Lake)
+  # --------------------------------------------------
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    volumes:
+      - minio_data:/data
+
+  minio-init:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        until mc alias set local http://minio:9000 "${MINIO_ROOT_USER}" "${MINIO_ROOT_PASSWORD}"; do
+          sleep 2
+        done
+        mc mb -p local/raw || true
+        mc mb -p local/normalized || true
+  # --------------------------------------------------
+  # Operational database (PostgreSQL)
+  # --------------------------------------------------
+  op-db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${OP_DB_USER}
+      POSTGRES_PASSWORD: ${OP_DB_PASS}
+      POSTGRES_DB: ${OP_DB_NAME}
+    ports:
+      - "${OP_DB_PORT}:5432"
+    volumes:
+      - op_pg_data:/var/lib/postgresql/data
+
+  # --------------------------------------------------
+  # Analytical database (ClickHouse)
+  # --------------------------------------------------
+  analytics-db:
+    image: clickhouse/clickhouse-server:latest
+    environment:
+      CLICKHOUSE_DB: ${CLICKHOUSE_DB}
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD}
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    ports:
+      - "${CLICKHOUSE_HTTP_PORT}:8123" # HTTP interface
+      - "${CLICKHOUSE_TCP_PORT}:9000" # Native protocol
+    volumes:
+      - analytics_clickhouse_data:/var/lib/clickhouse
+
+
+
+  # --------------------------------------------------
+  # Analytics API (FastAPI)
+  # --------------------------------------------------
+  analytics-api:
+    build: ./api
+    image: analytics-api:latest
+    depends_on:
+      - op-db
+      - analytics-db
+    ports:
+      - "8001:8000"  
+    environment:
+      POSTGRES_URL: postgresql+asyncpg://${OP_DB_USER}:${OP_DB_PASS}@${OP_DB_HOST}:5432/${OP_DB_NAME}
+      CLICKHOUSE_HOST: ${CLICKHOUSE_HOST}
+      CLICKHOUSE_TCP_PORT: 9000
+      CLICKHOUSE_HTTP_PORT: 8123
+      CLICKHOUSE_DATABASE: ${CLICKHOUSE_DB}
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD}
+      API_KEYS: demo_key_12345
+      LOG_LEVEL: INFO
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+
+
+
+
+volumes:
+  airflow_pg_data:
+  airflow_logs:
+  op_pg_data:
+  analytics_clickhouse_data:
+  minio_data:

@@ -1,0 +1,25 @@
+# Python
+testenv/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Env files
+.env
+/testenv/dag_testing/ingc_pdfs
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+#other
+airflow/docker-compose.yaml
+airflow/logs/
+.venv/
+**/clean_daily_historical.csv
+explication_variables_env.md
+explication_logs_trycatch.md
+db_commands.md
+
+.adk/
+agent_test/.adk/
+openai-agents-python/

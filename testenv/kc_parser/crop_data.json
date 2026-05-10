@@ -1,0 +1,1208 @@
+[
+  {
+    "category": "Small Vegetables",
+    "crop": "Small Vegetables",
+    "variant": null,
+    "kc_ini": "0.7",
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": null
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Broccoli",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Brussel Sprouts",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Cabbage",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Carrots",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Cauliflower",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Celery",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "1.00",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Garlic",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.70",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Lettuce",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.95",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Onions",
+    "variant": "dry",
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.75",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Onions",
+    "variant": "green",
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "1.00",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Onions",
+    "variant": "seed",
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.80",
+    "max_height_m": "0.5"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Spinach",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.95",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Small Vegetables",
+    "crop": "Radish",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "0.90",
+    "kc_end": "0.85",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Vegetables - Solanum Family (Solanaceae)",
+    "crop": "Vegetables - Solanum Family (Solanaceae)",
+    "variant": null,
+    "kc_ini": "0.6",
+    "kc_mid": "1.15",
+    "kc_end": "0.80",
+    "max_height_m": null
+  },
+  {
+    "category": "Vegetables - Solanum Family (Solanaceae)",
+    "crop": "Egg Plant",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.90",
+    "max_height_m": "0.8"
+  },
+  {
+    "category": "Vegetables - Solanum Family (Solanaceae)",
+    "crop": "Sweet Peppers (bell)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.052",
+    "kc_end": "0.90",
+    "max_height_m": "0.7"
+  },
+  {
+    "category": "Vegetables - Solanum Family (Solanaceae)",
+    "crop": "Tomato",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.152",
+    "kc_end": "0.70-0.90",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.00",
+    "kc_end": "0.80",
+    "max_height_m": null
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Cantaloupe",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "0.85",
+    "kc_end": "0.60",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Cucumber",
+    "variant": "Fresh Market",
+    "kc_ini": "0.6",
+    "kc_mid": "1.002",
+    "kc_end": "0.75",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Cucumber",
+    "variant": "Machine harvest",
+    "kc_ini": "0.5",
+    "kc_mid": "1.00",
+    "kc_end": "0.90",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Pumpkin, Winter Squash",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.80",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Squash, Zucchini",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "0.95",
+    "kc_end": "0.75",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Sweet Melons",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.75",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Vegetables - Cucumber Family (Cucurbitaceae)",
+    "crop": "Watermelon",
+    "variant": null,
+    "kc_ini": "0.4",
+    "kc_mid": "1.00",
+    "kc_end": "0.75",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Roots and Tubers",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.10",
+    "kc_end": "0.95",
+    "max_height_m": null
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Beets, table",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Cassava",
+    "variant": "year 1",
+    "kc_ini": "0.3",
+    "kc_mid": "0.803",
+    "kc_end": "0.30",
+    "max_height_m": "1.0"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Cassava",
+    "variant": "year 2",
+    "kc_ini": "0.3",
+    "kc_mid": "1.10",
+    "kc_end": "0.50",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Parsnip",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.05",
+    "kc_end": "0.95",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Potato",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.754",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Sweet Potato",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.65",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Turnip (and Rutabaga)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.10",
+    "kc_end": "0.95",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Roots and Tubers",
+    "crop": "Sugar Beet",
+    "variant": null,
+    "kc_ini": "0.35",
+    "kc_mid": "1.20",
+    "kc_end": "0.705",
+    "max_height_m": "0.5"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Legumes (Leguminosae)",
+    "variant": null,
+    "kc_ini": "0.4",
+    "kc_mid": "1.15",
+    "kc_end": "0.55",
+    "max_height_m": null
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Beans, green",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.052",
+    "kc_end": "0.90",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Beans, dry and Pulses",
+    "variant": null,
+    "kc_ini": "0.4",
+    "kc_mid": "1.152",
+    "kc_end": "0.35",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Chick pea",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.35",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Fababean (broad bean)",
+    "variant": "Fresh",
+    "kc_ini": "0.5",
+    "kc_mid": "1.152",
+    "kc_end": "1.10",
+    "max_height_m": "0.8"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Fababean (broad bean)",
+    "variant": "Dry/Seed",
+    "kc_ini": "0.5",
+    "kc_mid": "1.152",
+    "kc_end": "0.30",
+    "max_height_m": "0.8"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Grabanzo",
+    "variant": null,
+    "kc_ini": "0.4",
+    "kc_mid": "1.15",
+    "kc_end": "0.35",
+    "max_height_m": "0.8"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Green Gram and Cowpeas",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "0.60-0.356",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Groundnut (Peanut)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.60",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Lentil",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.10",
+    "kc_end": "0.30",
+    "max_height_m": "0.5"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Peas",
+    "variant": "Fresh",
+    "kc_ini": "0.5",
+    "kc_mid": "1.152",
+    "kc_end": "1.10",
+    "max_height_m": "0.5"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Peas",
+    "variant": "Dry/Seed",
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.30",
+    "max_height_m": "0.5"
+  },
+  {
+    "category": "Legumes (Leguminosae)",
+    "crop": "Soybeans",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.50",
+    "max_height_m": "0.5-1.0"
+  },
+  {
+    "category": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "crop": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.00",
+    "kc_end": "0.80",
+    "max_height_m": null
+  },
+  {
+    "category": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "crop": "Artichokes",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "1.00",
+    "kc_end": "0.95",
+    "max_height_m": "0.7"
+  },
+  {
+    "category": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "crop": "Asparagus",
+    "variant": null,
+    "kc_ini": "0.5",
+    "kc_mid": "0.957",
+    "kc_end": "0.30",
+    "max_height_m": "0.2-0.8"
+  },
+  {
+    "category": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "crop": "Mint",
+    "variant": null,
+    "kc_ini": "0.60",
+    "kc_mid": "1.15",
+    "kc_end": "1.10",
+    "max_height_m": "0.6-0.8"
+  },
+  {
+    "category": "Perennial Vegetables (with winter dormancy and initially bare or mulched soil)",
+    "crop": "Strawberries",
+    "variant": null,
+    "kc_ini": "0.40",
+    "kc_mid": "0.85",
+    "kc_end": "0.75",
+    "max_height_m": "0.2"
+  },
+  {
+    "category": "Fibre Crops",
+    "crop": "Fibre Crops",
+    "variant": null,
+    "kc_ini": "0.35",
+    "kc_mid": null,
+    "kc_end": null,
+    "max_height_m": null
+  },
+  {
+    "category": "Fibre Crops",
+    "crop": "Cotton",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15-1.20",
+    "kc_end": "0.70-0.50",
+    "max_height_m": "1.2-1.5"
+  },
+  {
+    "category": "Fibre Crops",
+    "crop": "Flax",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.10",
+    "kc_end": "0.25",
+    "max_height_m": "1.2"
+  },
+  {
+    "category": "Fibre Crops",
+    "crop": "Sisal 8",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "0.4-0.7",
+    "kc_end": "0.4-0.7",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Oil Crops",
+    "variant": null,
+    "kc_ini": "0.35",
+    "kc_mid": "1.15",
+    "kc_end": "0.35",
+    "max_height_m": null
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Castorbean (Ricinus)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.55",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Rapeseed, Canola",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.0-1.159",
+    "kc_end": "0.35",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Safflower",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.0-1.159",
+    "kc_end": "0.25",
+    "max_height_m": "0.8"
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Sesame",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.10",
+    "kc_end": "0.25",
+    "max_height_m": "1.0"
+  },
+  {
+    "category": "Oil Crops",
+    "crop": "Sunflower",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.0-1.159",
+    "kc_end": "0.35",
+    "max_height_m": "2.0"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Cereals",
+    "variant": null,
+    "kc_ini": "0.3",
+    "kc_mid": "1.15",
+    "kc_end": "0.4",
+    "max_height_m": null
+  },
+  {
+    "category": "Cereals",
+    "crop": "Barley",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.25",
+    "max_height_m": "1"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Oats",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.25",
+    "max_height_m": "1"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Spring Wheat",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "0.25-0.410",
+    "max_height_m": "1"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Winter Wheat",
+    "variant": "with frozen soils",
+    "kc_ini": "0.4",
+    "kc_mid": "1.15",
+    "kc_end": "0.25-0.410",
+    "max_height_m": "1"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Winter Wheat",
+    "variant": "with non-frozen soils",
+    "kc_ini": "0.7",
+    "kc_mid": "1.15",
+    "kc_end": "0.25-0.410",
+    "max_height_m": null
+  },
+  {
+    "category": "Cereals",
+    "crop": "Maize, Field (grain) (field corn)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.20",
+    "kc_end": "0.60-0.3511",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Maize, Sweet (sweet corn)",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.15",
+    "kc_end": "1.0512",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Millet",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.00",
+    "kc_end": "0.30",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Sorghum",
+    "variant": "grain",
+    "kc_ini": null,
+    "kc_mid": "1.00-1.10",
+    "kc_end": "0.55",
+    "max_height_m": "1-2"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Sorghum",
+    "variant": "sweet",
+    "kc_ini": null,
+    "kc_mid": "1.20",
+    "kc_end": "1.05",
+    "max_height_m": "2-4"
+  },
+  {
+    "category": "Cereals",
+    "crop": "Rice",
+    "variant": null,
+    "kc_ini": "1.05",
+    "kc_mid": "1.20",
+    "kc_end": "0.90-0.60",
+    "max_height_m": "1"
+  },
+  {
+    "category": "Forages",
+    "crop": "Alfalfa Hay",
+    "variant": "averaged cutting effects",
+    "kc_ini": "0.40",
+    "kc_mid": "0.9513",
+    "kc_end": "0.90",
+    "max_height_m": "0.7"
+  },
+  {
+    "category": "Forages",
+    "crop": "Alfalfa Hay",
+    "variant": "individual cutting periods",
+    "kc_ini": "0.4014",
+    "kc_mid": "1.2014",
+    "kc_end": "1.1514",
+    "max_height_m": "0.7"
+  },
+  {
+    "category": "Forages",
+    "crop": "Alfalfa Hay",
+    "variant": "for seed",
+    "kc_ini": "0.40",
+    "kc_mid": "0.50",
+    "kc_end": "0.50",
+    "max_height_m": "0.7"
+  },
+  {
+    "category": "Forages",
+    "crop": "Bermuda hay",
+    "variant": "averaged cutting effects",
+    "kc_ini": "0.55",
+    "kc_mid": "1.0013",
+    "kc_end": "0.85",
+    "max_height_m": "0.35"
+  },
+  {
+    "category": "Forages",
+    "crop": "Bermuda hay",
+    "variant": "Spring crop for seed",
+    "kc_ini": "0.35",
+    "kc_mid": "0.90",
+    "kc_end": "0.65",
+    "max_height_m": "0.4"
+  },
+  {
+    "category": "Forages",
+    "crop": "Clover hay, Berseem",
+    "variant": "averaged cutting effects",
+    "kc_ini": "0.40",
+    "kc_mid": "0.9013",
+    "kc_end": "0.85",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Forages",
+    "crop": "Clover hay, Berseem",
+    "variant": "individual cutting periods",
+    "kc_ini": "0.4014",
+    "kc_mid": "1.1514",
+    "kc_end": "1.1014",
+    "max_height_m": "0.6"
+  },
+  {
+    "category": "Forages",
+    "crop": "Rye Grass hay",
+    "variant": "averaged cutting effects",
+    "kc_ini": "0.95",
+    "kc_mid": "1.05",
+    "kc_end": "1.00",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Forages",
+    "crop": "Sudan Grass hay (annual)",
+    "variant": "averaged cutting effects",
+    "kc_ini": "0.50",
+    "kc_mid": "0.9014",
+    "kc_end": "0.85",
+    "max_height_m": "1.2"
+  },
+  {
+    "category": "Forages",
+    "crop": "Sudan Grass hay (annual)",
+    "variant": "individual cutting periods",
+    "kc_ini": "0.5014",
+    "kc_mid": "1.1514",
+    "kc_end": "1.1014",
+    "max_height_m": "1.2"
+  },
+  {
+    "category": "Forages",
+    "crop": "Grazing Pasture",
+    "variant": "Rotated Grazing",
+    "kc_ini": "0.40",
+    "kc_mid": "0.85-1.05",
+    "kc_end": "0.85",
+    "max_height_m": "0.15-0.30"
+  },
+  {
+    "category": "Forages",
+    "crop": "Grazing Pasture",
+    "variant": "Extensive Grazing",
+    "kc_ini": "0.30",
+    "kc_mid": "0.75",
+    "kc_end": "0.75",
+    "max_height_m": "0.10"
+  },
+  {
+    "category": "Forages",
+    "crop": "Turf grass",
+    "variant": "cool season 15",
+    "kc_ini": "0.90",
+    "kc_mid": "0.95",
+    "kc_end": "0.95",
+    "max_height_m": "0.10"
+  },
+  {
+    "category": "Forages",
+    "crop": "Turf grass",
+    "variant": "warm season 15",
+    "kc_ini": "0.80",
+    "kc_mid": "0.85",
+    "kc_end": "0.85",
+    "max_height_m": "0.10"
+  },
+  {
+    "category": "Sugar Cane",
+    "crop": "Sugar Cane",
+    "variant": null,
+    "kc_ini": "0.40",
+    "kc_mid": "1.25",
+    "kc_end": "0.75",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Banana",
+    "variant": "1st year",
+    "kc_ini": "0.50",
+    "kc_mid": "1.10",
+    "kc_end": "1.00",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Banana",
+    "variant": "2nd year",
+    "kc_ini": "1.00",
+    "kc_mid": "1.20",
+    "kc_end": "1.10",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Cacao",
+    "variant": null,
+    "kc_ini": "1.00",
+    "kc_mid": "1.05",
+    "kc_end": "1.05",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Coffee",
+    "variant": "bare ground cover",
+    "kc_ini": "0.90",
+    "kc_mid": "0.95",
+    "kc_end": "0.95",
+    "max_height_m": "2-3"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Coffee",
+    "variant": "with weeds",
+    "kc_ini": "1.05",
+    "kc_mid": "1.10",
+    "kc_end": "1.10",
+    "max_height_m": "2-3"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Date Palms",
+    "variant": null,
+    "kc_ini": "0.90",
+    "kc_mid": "0.95",
+    "kc_end": "0.95",
+    "max_height_m": "8"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Palm Trees",
+    "variant": null,
+    "kc_ini": "0.95",
+    "kc_mid": "1.00",
+    "kc_end": "1.00",
+    "max_height_m": "8"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Pineapple 16",
+    "variant": "bare soil",
+    "kc_ini": "0.50",
+    "kc_mid": "0.30",
+    "kc_end": "0.30",
+    "max_height_m": "0.6-1.2"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Pineapple 16",
+    "variant": "with grass cover",
+    "kc_ini": "0.50",
+    "kc_mid": "0.50",
+    "kc_end": "0.50",
+    "max_height_m": "0.6-1.2"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Rubber Trees",
+    "variant": null,
+    "kc_ini": "0.95",
+    "kc_mid": "1.00",
+    "kc_end": "1.00",
+    "max_height_m": "10"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Tea",
+    "variant": "non-shaded",
+    "kc_ini": "0.95",
+    "kc_mid": "1.00",
+    "kc_end": "1.00",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Tropical Fruits and Trees",
+    "crop": "Tea",
+    "variant": "shaded 17",
+    "kc_ini": "1.10",
+    "kc_mid": "1.15",
+    "kc_end": "1.15",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Grapes and Berries",
+    "crop": "Berries (bushes)",
+    "variant": null,
+    "kc_ini": "0.30",
+    "kc_mid": "1.05",
+    "kc_end": "0.50",
+    "max_height_m": "1.5"
+  },
+  {
+    "category": "Grapes and Berries",
+    "crop": "Grapes",
+    "variant": "Table or Raisin",
+    "kc_ini": "0.30",
+    "kc_mid": "0.85",
+    "kc_end": "0.45",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Grapes and Berries",
+    "crop": "Grapes",
+    "variant": "Wine",
+    "kc_ini": "0.30",
+    "kc_mid": "0.70",
+    "kc_end": "0.45",
+    "max_height_m": "1.5-2"
+  },
+  {
+    "category": "Grapes and Berries",
+    "crop": "Hops",
+    "variant": null,
+    "kc_ini": "0.3",
+    "kc_mid": "1.05",
+    "kc_end": "0.85",
+    "max_height_m": "5"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Almonds, no ground cover",
+    "variant": null,
+    "kc_ini": "0.40",
+    "kc_mid": "0.90",
+    "kc_end": "0.6518",
+    "max_height_m": "5"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apples, Cherries, Pears 19",
+    "variant": "no ground cover, killing frost",
+    "kc_ini": "0.45",
+    "kc_mid": "0.95",
+    "kc_end": "0.7018",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apples, Cherries, Pears 19",
+    "variant": "no ground cover, no frosts",
+    "kc_ini": "0.60",
+    "kc_mid": "0.95",
+    "kc_end": "0.7518",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apples, Cherries, Pears 19",
+    "variant": "active ground cover, killing frost",
+    "kc_ini": "0.50",
+    "kc_mid": "1.20",
+    "kc_end": "0.9518",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apples, Cherries, Pears 19",
+    "variant": "active ground cover, no frosts",
+    "kc_ini": "0.80",
+    "kc_mid": "1.20",
+    "kc_end": "0.8518",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apricots, Peaches, Stone Fruit 19, 20",
+    "variant": "no ground cover, killing frost",
+    "kc_ini": "0.45",
+    "kc_mid": "0.90",
+    "kc_end": "0.6518",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apricots, Peaches, Stone Fruit 19, 20",
+    "variant": "no ground cover, no frosts",
+    "kc_ini": "0.55",
+    "kc_mid": "0.90",
+    "kc_end": "0.6518",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apricots, Peaches, Stone Fruit 19, 20",
+    "variant": "active ground cover, killing frost",
+    "kc_ini": "0.50",
+    "kc_mid": "1.15",
+    "kc_end": "0.9018",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Apricots, Peaches, Stone Fruit 19, 20",
+    "variant": "active ground cover, no frosts",
+    "kc_ini": "0.80",
+    "kc_mid": "1.15",
+    "kc_end": "0.8518",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Avocado, no ground cover",
+    "variant": null,
+    "kc_ini": "0.60",
+    "kc_mid": "0.85",
+    "kc_end": "0.75",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, no ground cover 21",
+    "variant": "70% canopy",
+    "kc_ini": "0.70",
+    "kc_mid": "0.65",
+    "kc_end": "0.70",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, no ground cover 21",
+    "variant": "50% canopy",
+    "kc_ini": "0.65",
+    "kc_mid": "0.60",
+    "kc_end": "0.65",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, no ground cover 21",
+    "variant": "20% canopy",
+    "kc_ini": "0.50",
+    "kc_mid": "0.45",
+    "kc_end": "0.55",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, with active ground cover or weeds 22",
+    "variant": "70% canopy",
+    "kc_ini": "0.75",
+    "kc_mid": "0.70",
+    "kc_end": "0.75",
+    "max_height_m": "4"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, with active ground cover or weeds 22",
+    "variant": "50% canopy",
+    "kc_ini": "0.80",
+    "kc_mid": "0.80",
+    "kc_end": "0.80",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Citrus, with active ground cover or weeds 22",
+    "variant": "20% canopy",
+    "kc_ini": "0.85",
+    "kc_mid": "0.85",
+    "kc_end": "0.85",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Conifer Trees 23",
+    "variant": null,
+    "kc_ini": "1.00",
+    "kc_mid": "1.00",
+    "kc_end": "1.00",
+    "max_height_m": "10"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Kiwi",
+    "variant": null,
+    "kc_ini": "0.40",
+    "kc_mid": "1.05",
+    "kc_end": "1.05",
+    "max_height_m": "3"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Olives (40 to 60% ground coverage by canopy) 24",
+    "variant": null,
+    "kc_ini": "0.65",
+    "kc_mid": "0.70",
+    "kc_end": "0.70",
+    "max_height_m": "3-5"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Pistachios, no ground cover",
+    "variant": null,
+    "kc_ini": "0.40",
+    "kc_mid": "1.10",
+    "kc_end": "0.45",
+    "max_height_m": "3-5"
+  },
+  {
+    "category": "Fruit Trees",
+    "crop": "Walnut Orchard 19",
+    "variant": null,
+    "kc_ini": "0.50",
+    "kc_mid": "1.10",
+    "kc_end": "0.6518",
+    "max_height_m": "4-5"
+  },
+  {
+    "category": "Wetlands - temperate climate",
+    "crop": "Cattails, Bulrushes, killing frost",
+    "variant": null,
+    "kc_ini": "0.30",
+    "kc_mid": "1.20",
+    "kc_end": "0.30",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Wetlands - temperate climate",
+    "crop": "Cattails, Bulrushes, no frost",
+    "variant": null,
+    "kc_ini": "0.60",
+    "kc_mid": "1.20",
+    "kc_end": "0.60",
+    "max_height_m": "2"
+  },
+  {
+    "category": "Wetlands - temperate climate",
+    "crop": "Short Veg., no frost",
+    "variant": null,
+    "kc_ini": "1.05",
+    "kc_mid": "1.10",
+    "kc_end": "1.10",
+    "max_height_m": "0.3"
+  },
+  {
+    "category": "Wetlands - temperate climate",
+    "crop": "Reed Swamp, standing water",
+    "variant": null,
+    "kc_ini": "1.00",
+    "kc_mid": "1.20",
+    "kc_end": "1.00",
+    "max_height_m": "1-3"
+  },
+  {
+    "category": "Wetlands - temperate climate",
+    "crop": "Reed Swamp, moist soil",
+    "variant": null,
+    "kc_ini": "0.90",
+    "kc_mid": "1.20",
+    "kc_end": "0.70",
+    "max_height_m": "1-3"
+  },
+  {
+    "category": "Special",
+    "crop": "Open Water, < 2 m depth or in subhumid climates or tropics",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "1.05",
+    "kc_end": "1.05",
+    "max_height_m": null
+  },
+  {
+    "category": "Special",
+    "crop": "Open Water, > 5 m depth, clear of turbidity, temperate climate",
+    "variant": null,
+    "kc_ini": null,
+    "kc_mid": "0.6525",
+    "kc_end": "1.2525",
+    "max_height_m": null
+  }
+]
